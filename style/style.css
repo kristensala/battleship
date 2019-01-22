@@ -1,0 +1,57 @@
+.fullPage {
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+    padding-bottom: 10px;
+}
+body{
+    background-image: url(boat.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.startButton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#playerBoard {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#computerBoard {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.numberOfShips {
+    padding-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    
+}
+
+tr td {
+    border: 3px solid black;
+    width: 35px;
+    height: 35px;
+}
+.boat {
+    background-color: blue;  
+}
+.boatHit {
+    background-color: red;
+}
+.missedShot {
+    background-color: black;
+}
+.results {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
